@@ -1,0 +1,65 @@
+**Detailed Documentation for Object Analysis Project**
+
+**Project Overview**
+
+The Object Analysis Project is a comprehensive tool for analyzing images and extracting information about objects within them. It utilizes a combination of computer vision, natural language processing, and machine learning techniques to identify objects, extract text, and summarize relevant information.
+
+**Project Structure**
+
+The project is divided into several modules, each responsible for a specific task:
+
+1. **Object Identification**: Uses the CLIP (Contrastive Language-Image Pre-training) model to identify objects within an image.
+2. **Object Extraction**: Segments the image into individual objects using the Segment Anything Model (SAM) or YOLO (You Only Look Once) algorithm.
+3. **Text Extraction**: Uses the EasyOCR library to extract text from objects within the image.
+4. **Summarization**: Summarizes the extracted text using the LSA (Latent Semantic Analysis) algorithm.
+5. **Data Mapping**: Maps the extracted object information to a format suitable for storing and retrieving.
+
+**Project Functionality**
+
+The project provides several functions to perform the above tasks:
+
+1. **`main`**: The entry point of the project, which takes an image file as input and performs the object identification, extraction, text extraction, summarization, and data mapping tasks.
+2. **`IdentificationModel`**: A class responsible for identifying objects within an image using the CLIP model.
+3. **`SegmentationModel`**: A class responsible for segmenting the image into individual objects using the SAM or YOLO algorithm.
+4. **`TextExtractionModel`**: A class responsible for extracting text from objects within the image using the EasyOCR library.
+5. **`SummarizationModel`**: A class responsible for summarizing the extracted text using the LSA algorithm.
+6. **`DataMapper`**: A class responsible for mapping the extracted object information to a format suitable for storing and retrieving.
+
+**Technical Requirements**
+
+The project requires the following technical requirements to run:
+
+1. **Python**: The project is written in Python and requires Python 3.x to run.
+2. **TensorFlow**: The project uses TensorFlow to run the object identification and text extraction tasks.
+3. **OpenCV**: The project uses OpenCV to perform image processing and object segmentation.
+4. **Numpy**: The project uses Numpy to perform numerical computations.
+5. **Streamlit**: The project uses Streamlit to create a web interface for interacting with the project.
+
+**How to Use**
+
+To use the project, follow these steps:
+
+1. **Clone the repository**: Clone the repository using `git clone` or download the zip file.
+2. **Install dependencies**: Install the required dependencies using `pip install -r requirements.txt`.
+3. **Run the project**: Run the project using `python main.py` or `streamlit run main.py`.
+4. **Upload an image**: Upload an image file to the web interface using the `Choose an image file` button.
+5. **Analyze the image**: The project will analyze the image and display the results.
+
+**Troubleshooting**
+
+If you encounter any issues while running the project, refer to the following troubleshooting guide:
+
+1. **Ensure Python and dependencies are installed**: Ensure that Python and the required dependencies are installed.
+2. **Check the image file**: Check that the image file is in the correct format and size.
+3. **Check the project configuration**: Check the project configuration files (e.g. `config.json`) for any errors or inconsistencies.
+4. **Check the web interface**: Check the web interface for any errors or inconsistencies.
+
+**Customization**
+
+The project can be customized to suit your specific needs. To do so, follow these steps:
+
+1. **Edit the configuration files**: Edit the project configuration files (e.g. `config.json`) to change the project settings.
+2. **Add or remove tasks**: Add or remove tasks from the project workflow to suit your needs.
+3. **Modify the code**: Modify the project code to suit your needs.
+
+Note: This documentation is a comprehensive guide to the Object Analysis Project. However, if you encounter any issues or questions, feel free to ask and I will do my best to assist you.

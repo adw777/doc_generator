@@ -1,0 +1,94 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doc From Zip file</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1, h2, h3 { color: #2c3e50; }
+            code {
+                background-color: #f7f7f7;
+                padding: 2px 4px;
+                border-radius: 4px;
+                font-family: Consolas, monospace;
+            }
+            pre {
+                background-color: #f7f7f7;
+                padding: 15px;
+                border-radius: 5px;
+                overflow-x: auto;
+            }
+            a { color: #3498db; }
+            ul, ol { padding-left: 25px; }
+        </style>
+    </head>
+    <body>
+        <h1>Project Documentation</h1>
+        <p><strong>Detailed Documentation for Object Analysis Project</strong></p>
+<p><strong>Project Overview</strong></p>
+<p>The Object Analysis Project is a comprehensive tool for analyzing images and extracting information about objects within them. It utilizes a combination of computer vision, natural language processing, and machine learning techniques to identify objects, extract text, and summarize relevant information.</p>
+<p><strong>Project Structure</strong></p>
+<p>The project is divided into several modules, each responsible for a specific task:</p>
+<ol>
+<li><strong>Object Identification</strong>: Uses the CLIP (Contrastive Language-Image Pre-training) model to identify objects within an image.</li>
+<li><strong>Object Extraction</strong>: Segments the image into individual objects using the Segment Anything Model (SAM) or YOLO (You Only Look Once) algorithm.</li>
+<li><strong>Text Extraction</strong>: Uses the EasyOCR library to extract text from objects within the image.</li>
+<li><strong>Summarization</strong>: Summarizes the extracted text using the LSA (Latent Semantic Analysis) algorithm.</li>
+<li><strong>Data Mapping</strong>: Maps the extracted object information to a format suitable for storing and retrieving.</li>
+</ol>
+<p><strong>Project Functionality</strong></p>
+<p>The project provides several functions to perform the above tasks:</p>
+<ol>
+<li><strong><code>main</code></strong>: The entry point of the project, which takes an image file as input and performs the object identification, extraction, text extraction, summarization, and data mapping tasks.</li>
+<li><strong><code>IdentificationModel</code></strong>: A class responsible for identifying objects within an image using the CLIP model.</li>
+<li><strong><code>SegmentationModel</code></strong>: A class responsible for segmenting the image into individual objects using the SAM or YOLO algorithm.</li>
+<li><strong><code>TextExtractionModel</code></strong>: A class responsible for extracting text from objects within the image using the EasyOCR library.</li>
+<li><strong><code>SummarizationModel</code></strong>: A class responsible for summarizing the extracted text using the LSA algorithm.</li>
+<li><strong><code>DataMapper</code></strong>: A class responsible for mapping the extracted object information to a format suitable for storing and retrieving.</li>
+</ol>
+<p><strong>Technical Requirements</strong></p>
+<p>The project requires the following technical requirements to run:</p>
+<ol>
+<li><strong>Python</strong>: The project is written in Python and requires Python 3.x to run.</li>
+<li><strong>TensorFlow</strong>: The project uses TensorFlow to run the object identification and text extraction tasks.</li>
+<li><strong>OpenCV</strong>: The project uses OpenCV to perform image processing and object segmentation.</li>
+<li><strong>Numpy</strong>: The project uses Numpy to perform numerical computations.</li>
+<li><strong>Streamlit</strong>: The project uses Streamlit to create a web interface for interacting with the project.</li>
+</ol>
+<p><strong>How to Use</strong></p>
+<p>To use the project, follow these steps:</p>
+<ol>
+<li><strong>Clone the repository</strong>: Clone the repository using <code>git clone</code> or download the zip file.</li>
+<li><strong>Install dependencies</strong>: Install the required dependencies using <code>pip install -r requirements.txt</code>.</li>
+<li><strong>Run the project</strong>: Run the project using <code>python main.py</code> or <code>streamlit run main.py</code>.</li>
+<li><strong>Upload an image</strong>: Upload an image file to the web interface using the <code>Choose an image file</code> button.</li>
+<li><strong>Analyze the image</strong>: The project will analyze the image and display the results.</li>
+</ol>
+<p><strong>Troubleshooting</strong></p>
+<p>If you encounter any issues while running the project, refer to the following troubleshooting guide:</p>
+<ol>
+<li><strong>Ensure Python and dependencies are installed</strong>: Ensure that Python and the required dependencies are installed.</li>
+<li><strong>Check the image file</strong>: Check that the image file is in the correct format and size.</li>
+<li><strong>Check the project configuration</strong>: Check the project configuration files (e.g. <code>config.json</code>) for any errors or inconsistencies.</li>
+<li><strong>Check the web interface</strong>: Check the web interface for any errors or inconsistencies.</li>
+</ol>
+<p><strong>Customization</strong></p>
+<p>The project can be customized to suit your specific needs. To do so, follow these steps:</p>
+<ol>
+<li><strong>Edit the configuration files</strong>: Edit the project configuration files (e.g. <code>config.json</code>) to change the project settings.</li>
+<li><strong>Add or remove tasks</strong>: Add or remove tasks from the project workflow to suit your needs.</li>
+<li><strong>Modify the code</strong>: Modify the project code to suit your needs.</li>
+</ol>
+<p>Note: This documentation is a comprehensive guide to the Object Analysis Project. However, if you encounter any issues or questions, feel free to ask and I will do my best to assist you.</p>
+    </body>
+    </html>
+    

@@ -1,0 +1,5 @@
+agents:
+  - name: READMEGenerator
+    description: Generates a documentation for a README file in a GitHub repository.
+    script:
+      - python README_generator.py
