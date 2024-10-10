@@ -120,8 +120,8 @@ def main():
         cleaned_documentation = clean_documentation(raw_documentation)
         
         file_number = get_next_file_number()
-        txt_filename = f"documentation{file_number}.txt"
-        html_filename = f"documentation{file_number}.html"
+        txt_filename = f"doc_url{file_number}.txt"
+        html_filename = f"doc_url{file_number}.html"
         
         save_documentation(cleaned_documentation, txt_filename)
         create_html_page(cleaned_documentation, html_filename)
